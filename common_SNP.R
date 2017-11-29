@@ -6,8 +6,8 @@ args = commandArgs(trailingOnly=TRUE)
 vcf1=args[1]
 vcf2=args[2]
 
-vcf1<-'/Users/Harley/Desktop/SNP/high_quality_SNPS_1.csv'
-vcf2<-'/Users/Harley/Desktop/SNP/high_quality_SNPS_2.csv'
+#vcf1<-'/Users/Harley/Desktop/SNP/high_quality_SNPS_1.csv'
+#vcf2<-'/Users/Harley/Desktop/SNP/high_quality_SNPS_2.csv'
 
 sample_name_1<-stri_sub(unlist(strsplit(vcf1,'_'))[4],1,-5)
 sample_name_2<-stri_sub(unlist(strsplit(vcf2,'_'))[4],1,-5)
